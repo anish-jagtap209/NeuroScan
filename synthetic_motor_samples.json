@@ -1,0 +1,71 @@
+[
+  {
+    "sample_id": "SYN-PT-101",
+    "patient_alias": "Synthetic Case A (Baseline / Healthy Control)",
+    "age": 58,
+    "gender": "Female",
+    "test_type": "Archimedean Spiral Test",
+    "synthetic_classification": "Low Risk / Healthy Baseline",
+    "ground_truth_label": 0,
+    "kinematic_biomarkers": {
+      "dominant_tremor_freq_hz": 0.8,
+      "velocity_variance": 12.4,
+      "pressure_stability_ratio": 0.94,
+      "trajectory_entropy": 0.18,
+      "drawing_duration_sec": 7.2
+    },
+    "points_preview": [
+      [150, 150], [152, 148], [156, 145], [162, 146], [168, 150],
+      [172, 158], [170, 168], [162, 175], [150, 178], [138, 174],
+      [130, 162], [128, 148], [134, 134], [146, 124], [162, 122],
+      [178, 128], [192, 142], [198, 160], [194, 180], [180, 196]
+    ],
+    "clinician_scenario_notes": "Smooth Archimedean spiral trajectory. Consistent radial progression with negligible postural or resting tremor markers. Micro-variations fall well within physiological limits."
+  },
+  {
+    "sample_id": "SYN-PT-102",
+    "patient_alias": "Synthetic Case B (Mild Action Tremor Pattern)",
+    "age": 64,
+    "gender": "Male",
+    "test_type": "Archimedean Spiral Test",
+    "synthetic_classification": "Moderate Anomaly / Screening Recommended",
+    "ground_truth_label": 1,
+    "kinematic_biomarkers": {
+      "dominant_tremor_freq_hz": 4.6,
+      "velocity_variance": 38.6,
+      "pressure_stability_ratio": 0.76,
+      "trajectory_entropy": 0.54,
+      "drawing_duration_sec": 11.8
+    },
+    "points_preview": [
+      [150, 150], [153, 146], [158, 147], [164, 142], [167, 152],
+      [174, 155], [168, 169], [165, 173], [148, 180], [136, 172],
+      [128, 165], [131, 147], [136, 131], [149, 122], [164, 124],
+      [176, 126], [189, 144], [199, 157], [191, 182], [177, 198]
+    ],
+    "clinician_scenario_notes": "Intermittent line oscillations detected in the 4–5 Hz band during fine motor movement. Velocity profile indicates micro-hesitations during radial turns. Recommends formal neurological evaluation."
+  },
+  {
+    "sample_id": "SYN-PT-103",
+    "patient_alias": "Synthetic Case C (Pronounced Motor Anomaly Pattern)",
+    "age": 71,
+    "gender": "Male",
+    "test_type": "Sinusoidal Waveform Test",
+    "synthetic_classification": "Elevated Anomaly / Comprehensive Screening",
+    "ground_truth_label": 1,
+    "kinematic_biomarkers": {
+      "dominant_tremor_freq_hz": 5.8,
+      "velocity_variance": 64.2,
+      "pressure_stability_ratio": 0.52,
+      "trajectory_entropy": 0.82,
+      "drawing_duration_sec": 16.4
+    },
+    "points_preview": [
+      [50, 150], [70, 130], [75, 136], [90, 115], [95, 122],
+      [110, 140], [115, 135], [130, 165], [135, 160], [150, 185],
+      [165, 170], [170, 175], [185, 145], [190, 150], [205, 125],
+      [220, 140], [235, 165], [240, 160], [255, 180], [270, 175]
+    ],
+    "clinician_scenario_notes": "Pronounced jagged waveforms accompanied by frequency concentration in the 5–6 Hz resting/postural tremor spectrum. Marked velocity deceleration and high trajectory dispersion."
+  }
+]
